@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+
+    <item
+        android:id="@+id/main_action_fav"
+        android:orderInCategory="80"
+        android:icon="@drawable/icr_action_important"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/main_action_search"
+        android:orderInCategory="90"
+        android:icon="@drawable/search"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/main_action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/services"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/main_action_login"
+        android:title="@string/action_logout"
+        android:icon="@drawable/sports_mode"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

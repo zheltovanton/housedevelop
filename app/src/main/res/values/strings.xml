@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Новострой</string>
+    <string name="title_activity_maps">Новостройки</string>
+    <string name="action_search">Поиск</string>
+    <string name="action_login">Логин</string>
+    <string name="action_logout">Смена пользователя</string>
+    <string name="menu_search">Поиск</string>
+
+
+    <string name="action_settings">Настройки</string>
+    <string name="pref_login_info">Учетная запись</string>
+    <string name="search_hint">Поиск адреса</string>
+    <string name="pref_username">Имя пользователя</string>
+    <string name="pref_username_summary">username@example.com</string>
+    <string name="pref_password">Пароль</string>
+    <string name="pref_password_summary">пароль от учетной записи</string>
+    <string name="pref_keep_log">Подключаться при запуске</string>
+    <string name="pref_keep_log_summary">Вкл/Выкл</string>
+    <string name="pref_maps_type">Тип карты</string>
+    <string name="pref_maps_type_sum">Дорожная/Спутник/Гибрид/Ландшафт</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_password_repeat">Пароль еще раз</string>
+    <string name="hint_name">Фамилия Имя</string>
+    <string name="btn_login">Вход</string>
+    <string name="btn_register">Регистрация</string>
+    <string name="btn_link_to_register">Еще не зарегистрированы? Нажмите здесь.</string>
+    <string name="btn_link_to_login">Уже зарегистрирован! Можете войти.</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="btn_logout">Выход</string>
+    <string name="name">Фамилия Имя</string>
+    <string name="warn_details">"Пожалуйста, введите учетные данные!"</string>
+    <string name="warn_passwords">"Введенные пароли не совпадают!"</string>
+    <string name="warn_credentials">"Пожалуйста, введите учетные данные!"</string>
+    <string name="new_build">"Новостройка"</string>
+
+    <string name="txt_address">Адрес</string>
+    <string name="txt_city">Город</string>
+    <string name="txt_developer">Застройщик"</string>
+    <string name="txt_developer_details">Контакты застройщика</string>
+    <string name="txt_housedetails">Краткое описание</string>
+    <string name="txt_coord">Координат"</string>
+    <string name="txt_region">Регион</string>
+    <string name="txt_country">Страна"</string>
+    <string name="address_not_found">Адрес не найден</string>
+    <string name="txt_bt_save">Сохранить</string>
+    <string name="txt_pr_saving">Сохранение</string>
+    <string name="txt_bt_cancel">Отменить</string>
+    <string name="title_activity_houseview">Просмотр дома</string>
+    <string name="title_activity_fav">Избранные</string>
+    <string name="err_wronganswer">Неверный ответ</string>
+    <string name="comment">Комментарий</string>
+    <string name="make_photo">Сделать фото</string>
+    <string name="load_photo">Загрузить фото</string>
+    <string name="send_comment">Отправить</string>
+
+    <string name="action_refresh">Обновить</string>
+    <string name="sending">Отправляю</string>
+    <string name="edit">Редактировать</string>
+    <string name="favorite">Избранное</string>
+    <string name="upload_complete">Отправка завершена успешно. </string>
+    <string name="site_not_response">Нет доступа к housedevelop.com </string>
+    <string name="loading">Загрузка...</string>
+    <string name="develop_finish_at">Примерная дата окончания строительства</string>
+    <string name="develop_begin_at">Дата начала строительства</string>
+    <string name="stage">Стадия</string>
+    <string name="dots">...</string>
+    <string name="rotate">Поворот</string>
+    <string name="date_dev_begin">Начало стройки</string>
+    <string name="date_dev_finish">окончание</string>
+    <string name="stage_construct">Стадия строительства</string>
+    <string name="make_edit">Редактировать</string>
+
+
+</resources>

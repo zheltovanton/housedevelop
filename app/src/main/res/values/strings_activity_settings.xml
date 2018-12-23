@@ -1,0 +1,45 @@
+<resources>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="pref_header_general">Основные</string>
+
+    <string name="settings_login_text">Логин</string>
+    <string name="settings_login_default">mail@example.com</string>
+
+    <string name="settings_map_type_text">Тип карты</string>
+    <string-array name="settings_map_type_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+
+    <string-array name="settings_map_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="addhouse_stage_build_titles">
+        <item>Разрешение на строительство</item>
+        <item>Котлован</item>
+        <item>Нулевой цикл</item>
+        <item>Строительство</item>
+        <item>Стройка остановлена</item>
+        <item>Отделка</item>
+        <item>Сдача в эксплуатацию</item>
+        <item>Дом сдан</item>
+    </string-array>
+
+    <string-array name="addhouse_stage_build_values">
+        <item>permission</item>
+        <item>trench</item>
+        <item>zero</item>
+        <item>build</item>
+        <item>freeze</item>
+        <item>finish</item>
+        <item>commissioning</item>
+        <item>delivered</item>
+    </string-array>
+
+
+</resources>

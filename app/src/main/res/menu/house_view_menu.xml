@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.housedevelop.housedevelop.Houseview">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hw_favorite"
+        android:title="@string/favorite"
+        android:orderInCategory="70"
+        android:icon="@drawable/icr_action_not_important"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/hw_add_comment"
+        android:title="@string/comment"
+        android:orderInCategory="80"
+        android:icon="@drawable/plus"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/hw_action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/synchronize"
+        app:showAsAction="ifRoom" />
+</menu>

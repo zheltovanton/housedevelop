@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context="com.housedevelop.housedevelop.Houseview">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/hw_info"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="master joda"
+                android:id="@+id/hw_creator_username"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="right"
+                android:textStyle="italic"
+                android:textColor="@color/username" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID "
+                android:id="@+id/hw_txt_id"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="left"
+                android:textIsSelectable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:id="@+id/hw_txt_address"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="left"
+                android:textIsSelectable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Building info"
+                android:id="@+id/hw_txt_housedetails"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="left"
+                android:textIsSelectable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:id="@+id/hw_txt_developer"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="left"
+                android:textIsSelectable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:id="@+id/hw_txt_date"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="left"
+                android:textIsSelectable="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:id="@+id/hw_txt_stage"
+                android:textSize="12dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="left"
+                android:textIsSelectable="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/make_edit"
+                android:visibility="invisible"
+                android:id="@+id/hw_bt_edit" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/hw_list"
+                android:weightSum="1">
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/ls_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+
+        android:text="username"
+        android:textStyle="italic"
+        android:textColor="#567"
+        android:textSize="10dip"
+        />
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/ls_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/ls_username"
+        android:gravity="right"
+        android:text="0/0"
+
+        android:layout_marginRight="5dip"
+        android:textSize="8dip"
+        android:textColor="#789"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/ls_image"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/ls_username"
+        android:layout_height="180dip"
+        android:src="@drawable/ic_action_person"/>
+
+    <!-- Rightend Arrow -->
+    <ImageView
+        android:id="@+id/ls_delete"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_action_discard"
+        android:layout_alignParentTop="@id/ls_image"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dip"
+        android:layout_height="30dip"/>
+
+
+    <!-- Artist Name -->
+    <TextView
+        android:id="@+id/ls_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ls_image"
+        android:textColor="#343434"
+        android:textSize="12dip"
+        android:layout_marginTop="3dip"
+        android:text="Comment" />
+
+
+    <View android:id="@+id/separator"
+        android:background="@color/abc"
+        android:layout_width = "fill_parent"
+        android:layout_height="1dip"
+        android:layout_centerVertical ="true"
+        android:layout_alignParentTop="true"/>
+
+</RelativeLayout>

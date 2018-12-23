@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.housedevelop.housedevelop"
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 3
+        versionName "1.2"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("kej.jks")
+            storePassword "pass"
+            keyAlias "housedevelop"
+            keyPassword "pass"
+        }
+        debug {
+            storeFile file("kej.jks")
+            storePassword "pass"
+            keyAlias "husedevelopdebug"
+            keyPassword "pass"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.debug
+//            versionNameSuffix "-debug"
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.android.support:appcompat-v7:21.0.+'
+    compile 'com.mcxiaoke.volley:library:1.0.11'
+    compile 'com.android.support:support-v4:21.0.3'
+
+
+    compile 'org.jsoup:jsoup:1.8.1'
+  //  compile 'com.googlecode.json-simple:json-simple:1.1'
+
+}
